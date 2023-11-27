@@ -1,0 +1,474 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.prime-nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  opacity: 1;
+  z-index: 9999;
+}
+
+.nav {
+  height: 60px;
+  width: 100%;
+  background-color: #1e2d3b;
+  display: flex;
+}
+
+.no a i {
+  color: white;
+}
+
+.logo {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  cursor: pointer;
+}
+.logo i:hover {
+  color: aquamarine;
+}
+.middle {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  cursor: pointer;
+}
+.end {
+  height: 100%;
+  width: 20%;
+  cursor: pointer;
+}
+.no {
+  height: 100%;
+  width: 25%;
+  color: white;
+}
+.no i {
+  padding-top: 20px;
+  font-size: 30px;
+  text-decoration: none;
+}
+.su {
+  height: 100%;
+  width: 33.33%;
+  display: flex;
+  color: white;
+}
+.su p:hover {
+  color: aqua;
+}
+.su i {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-right: 20px;
+}
+
+.su p {
+  font-size: 18px;
+  margin-top: 16px;
+  margin-left: 6px;
+}
+/* there are two types of position - relative and absolute */
+.end a {
+  font-size: 18px;
+  position: relative;
+  top: 30%;
+  left: 30%;
+  text-decoration: none;
+  color: white;
+}
+.end:hover {
+  background-color: orange;
+}
+/* .end:active{
+    background-color: pink;
+} 
+
+new div starts*/
+.nav2 {
+  height: 60px;
+  width: 100%;
+  display: flex;
+}
+.left {
+  height: 100%;
+  width: 50%;
+  background-color: white;
+}
+.right {
+  height: 100%;
+  width: 50%;
+  background-color: white;
+  display: flex;
+}
+.ele {
+  height: 100%;
+  width: 20%;
+}
+.ele h3 {
+  font-size: 25px;
+  font-weight: 100;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin-top: 7rem;
+}
+.left1 {
+  height: 100%;
+  width: 50%;
+}
+.right1 {
+  height: 100%;
+  width: 50%;
+
+  background: url("mainbgright.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.up {
+  height: 120px;
+  width: 100%;
+  margin-top: 80px;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  right: 25%;
+  color: white;
+}
+.up p {
+  font-size: 21px;
+}
+.container {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: -60%;
+  color: white;
+}
+.box {
+  height: 175px;
+  width: 25%;
+}
+.above {
+  height: 87.5px;
+  text-align: center;
+  padding-top: 10px;
+}
+.below {
+  height: 87.5px;
+}
+.below i {
+  font-size: 70px;
+  margin-left: 46px;
+}
+.below a i {
+  color: white;
+}
+.left1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.up2 {
+  margin-top: 30px;
+  text-align: center;
+  height: 20%;
+  color: white;
+  font-family: cursive;
+}
+.low2 {
+  height: 45%;
+  width: 60%;
+  margin-left: 20%;
+  opacity: 0.7;
+  z-index: 1;
+}
+.low2 input {
+  width: 100%;
+  height: 40px;
+}
+.low2 button {
+  width: 100%;
+  height: 30px;
+}
+
+.main2 {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.main2up {
+  height: 30%;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+}
+.main2up h1 {
+  color: red;
+  font-style: inherit;
+}
+.main2down {
+  height: 57%;
+  width: 100%;
+  display: flex;
+}
+.main2content{
+  width: 30%;
+  height: 100%;
+  font-family: sans-serif;
+  border: 2px solid black;
+  border-radius: 4%;
+  margin-left: 100px;
+  padding-right: 30px;
+  background-color: #f7f7f7;
+  
+}
+/* .main2content2{
+  width: 33.33%;
+  height: 100%;
+  font-family: sans-serif;
+  border: 2px solid black;
+  border-radius: 4%;
+  
+}
+.main2content3{
+  width: 33.33%;
+  height: 100%;
+  font-family: sans-serif;
+  border: 2px solid black;
+  border-radius: 4%;
+  
+} */
+
+.main2content i {
+  margin-left: 30px;
+  font-size: 60px;
+  color: red;
+}
+.main2content h2 {
+  padding-left: 70px;
+  font-family: cursive;
+  margin-left: 20px;
+}
+.main2content h3 {
+  padding-left: 70px;
+  font-family: cursive;
+  padding-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 100px;
+}
+/* .main2button{
+  height: 50px;
+  width: 100%;
+  border: 2px solid black;
+} */
+.main2 button {
+  height: 50px;
+  width: 27%;
+  text-align: center;
+  font-size: large;
+  border: 3px solid #ea4320;
+  margin-left: 500px;
+}
+button:hover {
+  color: #ffffff;
+  background-color: #ea4320;
+}
+.main3 {
+  height: 100%;
+  width: 100%;
+}
+.main3up {
+  height: 20%;
+  width: 100%;
+  text-align: center;
+  font-weight: 100;
+  margin-top: 50px;
+  padding-top: 50px;
+  background-color: #f7f7f7;
+  font-size: x-large;
+}
+.main3up h1 {
+  font-size: xx-large;
+  font-family: sans-serif;
+}
+.main3down {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 20px;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+}
+/* .main3naming {
+  height: 10%;
+  width: 100%;
+  border: 2px solid black; 
+}
+  */
+.main3content1 {
+  width: 24%;
+  height: 95%;
+  padding-top: 5px;
+  padding-left: 10px;
+  margin-left: 50px;
+  border-radius: 5%;
+  border: 2px solid black;
+  background-color: #020928;
+  color: white;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 100;
+}
+.main3content1 h4{
+  text-align: right;
+  color: pink;
+  padding-right: 20px;
+
+}
+.main3content2 {
+  width: 24%;
+  height: 95%;
+  padding-top: 5px;
+  padding-left: 10px;
+  margin-left: 130px;
+  border-radius: 5%;
+  border: 2px solid black;
+  background-color: #020928;
+  color: white;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 100;
+  word-wrap: break-word;
+}
+.main3content2 h4{
+  text-align: right;
+  color: pink;
+  padding-right: 20px;
+
+}
+.main3content3 {
+  width: 24%;
+  height: 95%;
+  padding-top: 5px;
+  padding-left: 10px;
+  margin-left: 142px;
+  border-radius: 5%;
+  border: 2px solid black;
+  background-color: #020928;
+  color: white;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 100;
+
+}
+.main3content3 h4{
+  text-align: right;
+  color: pink;
+  padding-right: 20px;
+
+}
+.main4 {
+  height: 100%;
+  width: 100%;
+  background-color: #217094;
+}
+.main4up {
+  height: 25%;
+  width: 100%;
+  border: 2px solid black;
+  text-align: center;
+}
+.main4up button {
+  height: 50px;
+  width: 27%;
+  text-align: center;
+  font-size: large;
+  border: 3px solid #ea4320;
+  margin-top: 30px;
+  color: white;
+}
+
+.main4middle {
+  height: 5%;
+  width: 100%;
+  border: 2px solid black;
+}
+.main4down {
+  height: 70%;
+  width: 100%;
+  border: 2px solid black;
+}
+
+.footer {
+  padding-top: 20px;
+  height: 40%;
+  width: 100%;
+  display: flex;
+  color: white;
+  background-color: black;
+}
+.first {
+  width: 30%;
+  height: 100%;
+  margin-left: 10px;
+}
+.second {
+  width: 25%;
+  height: 100%;
+}
+.third {
+  width: 20%;
+  height: 100%;
+}
+.fourth {
+  width: 185px;
+  height: 100%;
+}
+.fifth {
+  width: 20%;
+  height: 100%;
+}
+.first p {
+  margin-bottom: 6%;
+}
+.copyright {
+  color: red;
+  margin-top: 128px;
+}
+.second p {
+  margin-bottom: 6%;
+}
+.Terms {
+  margin-top: 98px;
+}
+.third p {
+  margin-bottom: 7%;
+}
+.fourth p {
+  margin-bottom: 12%;
+}
+.fifth p {
+  margin-bottom: 10%;
+}
+.connectup {
+  display: flex;
+}

@@ -1,0 +1,35 @@
+#heading{
+	margin: 0px;
+	 background: linear-gradient(rgba(0,0,0,0.5),#009688);
+	font-size:25;
+	font-family:Lato;
+	color:white;
+	text-align:center;
+	padding: 15px;
+}
+
+fieldset{
+	border-color:white;
+}
+
+#bckgrnd{
+	background:linear-gradient(#a5a4c8,#019587);;
+}
+
+#content{
+	color:white;
+	font-weight:700;
+	font-size:20;
+}
+
+#button{
+	 background: linear-gradient(rgba(0,0,0,0.5),#009688);
+	color:white;
+	border: none;
+	font-weight:400;
+	padding:15px;
+	font-size: 20px;
+	text-align:center;
+	cursor:hand;
+}
+	
